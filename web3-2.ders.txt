@@ -1,0 +1,82 @@
+
+
+
+WEB 3 --- 2.DERS
+10.10.19
+----------------------------------
+
+## Bootstrapte css ve js'de asýl iþimize yarayacak olan dosya;
++bootstrap.min
+
+## <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">  --> RESPONSIVE KODU
+
+## jQuery first, then Popper.js, then Bootstrap JS(javascript)  --> sýralama bu þekilde
+
+## bootstrapteki kütüphanelerin çalýþabilmesi için gereklidir jquery
+
+## <link rel="stylesheet" href="css/bootstrap.min.css"> --> css'i çaðýrdýðýmýz kod
+
+## <script src="js/jquery-3.4.1.min.js"></script> --> jquery
+
+## <nav class="navbar navbar-expand-xl navbar-light bg-light">   --> menünün xl'taki görünümü
+
+##  <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>  --> search butonu
+
+## navbar-brand : logo,marka için kullanýlan bootstrap classý
+
+## <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button> --> mobilde göörünen buton
+
+## collapse --> açýlýr kapanýr yapýlar
+
+## mr-auto --> sað taraftan otomatik boþluk ver
+## ml-auto --> soldan
+
+## active -- aktif, varsayýlan açýlan 
+
+## nav-item dropdown --> dropdown 
+
+--->    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+
+
+
+
+## nav-link disabled  -- görünür ama týklanmýyor
+
+## <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      </li>  -->  
+
+
+## ctrl+boþluk --> seçenekleri getirmek içn
+
+
+## istediðimiz kadar css dosyasý kullanabilir çaðýrabiliriz
+
+## .container + tab'a basarsak heemn kendisi class olupþturyor divli
+
+## görseller  araçlar--herhangibirrenkten saydamý seçiyoruz  --> png transparan fotoðraflar 
+
+## w-100 -> geniþlik yüzde yüz demek
+
+## <script>
+	
+	$('.carousel').carousel({
+  interval: 2000
+})
+	
+</script>  --> 2000:2 saniyede bir resim deðiþtirir
