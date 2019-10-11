@@ -1,0 +1,33 @@
+
+
+
+########################ÖDEV VAR, BU TARZ BÝ SÝTE HAZIRLA!!!!!!!!!!!
+
+WEB 3 --- 3.DERS
+11.10.19
+---------------------------------
+
+
+# site - new site --> burdan kaydedilcek yeri ve  klasörü oluþturup seçiyoruz
+
+# <div class="container mt-3">  --> mt: margin-top: üstten boþluk verdik 
+
+# ml : soldan boþluk
+# mr : saðdan boþluk
+# mb : aþaðýdan boþluk
+# mt : yukardan boþluk
+
+# etiketadý.classadý + tab ' a basarsak o etiketle oluþturuyor, yoksa sadece .classadý ve tab yaparsak div oluþturur
+
+# collapse: butona týklandýüðýnda daha fazlasýný gösterir
+
+# id ve classlar rakam ile baþlayamaz
+
+# <div id="s1" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div class="card-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>   
+  --------> collapse show : açýk gelmesi için gereken kod 
+
+# data-parent: açýlacak yeri gösterir
