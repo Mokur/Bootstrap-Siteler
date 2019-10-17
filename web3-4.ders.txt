@@ -1,0 +1,36 @@
+
+
+WEB 3  ----  4.DERS
+17.10.19
+-----------------------------------
+
+# jquery'i sitesinden compressed yani sıkıştırılmış olanı üstüne sağ tıklayıp bağlantıyı
+ farklı kaydet diyerek js dosyasının içine kaydederiz çünkü bu bir js dosyasıdır.
+
+# background-repeat: no-repeat; --> tekrar yok
+
+# background-size: cover; --> yerleştir arkaplanı
+
+# background-image: url(../images/bg.png); --> arkaplan resmi
+
+# background-size: 100% --> sığdır tam getir
+
+# sayfa ortada gelmesi için container divi içinde yapılır her şey
+
+# svg indirmek daha mantıklı büyütüp küçültürken bozulma olmaz
+
+# a*3>img -- 3 tane a etiketi  içinde imgleri getirir
+
+# <div class="sosyal float-right"> --> float-right bootstraple gelen bir özellik, sağ tarafa gider verilen class
+
+# !important
+
+# klasör içerisinden siteyi açarak inceleye basarsan kodları rahatlıkla inceeyebilirsin, düzeltmen gereken yerleri görebilirsin.
+
+# @media(max-width:768px){
+	
+} --> (max)768px'e kadar olanlarda çalışacak kodlar yazılır(responsive'de)
+
+# background-attachment: fixed; --> arkaplan sabit kalsın, üstündekiler kaysın 
+
+# 
