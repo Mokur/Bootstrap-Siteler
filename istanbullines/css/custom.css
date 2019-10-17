@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background-image: url(../images/g1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+.sosyal img{
+	width: 34px;
+}
+
+.menu a{
+	color: #05145B!important;
+	font-size: 18px;
+}
+
+.navbar{
+	padding: 20px 0px;
+}
+
+@media(max-width:768px){
+	.logo img{
+		width: 180px;
+	}
+}
+
+@media(max-width:320px){
+	.logo img{
+		width: 120px;
+	}
+	.sosyal img{
+		width: 24px;
+	}
+}
