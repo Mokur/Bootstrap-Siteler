@@ -1,0 +1,110 @@
+
+
+
+
+
+
+web - 5.ders
+
+
+
+# col-auto : içeriðe göre geniþler
+
+# <select name="" id=""></select> --> selectlist
+
+# <select name="" id="">
+		<option value=""></option>
+  </select> 
+
+# csste;
+
+.topMenu a:nth-child(2){
+	border-right: solid 1px #000000;
+} --> a etiketinin ikinci elemanýnýn saðýna border ekledik düz 1px ve siyah
+ (0'dan deðil birden baþlar ve nth child, topmenunun hepsini ele aldýðý için böyle yaptýk, direk a'yý almýyor)
+
+# .topMenu a:nth-last-child(1){
+	background-image: url(../images/cart.png);
+	background-repeat: no-repeat;
+}  --> sonuncu elemandan önce resim atadýk, ve tekrar etmesini kaldýrdýk
+
+# <div class="row justify-content-end"> --> bu row'u en sona yerleþtiriyor
+
+# <span class="sr-only">(current)</span> --> varsayýlan olarak açýlýr geleni gösterir
+
+# !important : bu yazdýðýn özellik çalýþýr diðer bootstrapten gelen özellik deaktif olur
+
+# .menu ul li.active a{
+	text-decoration: underline;
+} --> li'de aktif yazýlý olan a'da çalýþacak özellikler (altýný çizer)
+
+# padding-left: 0px;
+	padding-right: 0px; --> sol ve saðdaki boþluklarý kaldýrýrýz
+
+# <header></header> --> baþtaki kýsýmlar
+# <main></main> --> ana kýsým, içerik vs
+# <footer></footer> --> alt kýsým
+
+
+# .carousel-indicators li {
+	width: 10px;
+	height: 10px;
+	border-radius: 100%;
+	background-color: transparent;
+	border: solid 1px white;
+} --> width ve height ile kare yaptýk, border radius ile yuvarlak yaptýk colorýný transparan yapýp border verince içi boþ yuvarlak oldu
+
+.carousel-indicators .active{
+	background-color: white;
+}-->  aktif olaný içi dolu yaptýk
+
+
+# d-block : display block
+# class="d-block w-100" : büyütür ve yüzde yüz gösterir
+
+# absolute : 
+
+# relative: 
+
+# overflow: hidden --> dýþýnda kalan yerleri gösterme
+
+# line-height: 50px; --> bir satýrýn kapladýðý yükseklik
+
+# h3 etiketinin kendi margin padding özelliði vardýr onu sýfýrlamak gerekiyor
+
+# bottom: -50px;  fotoðrafýn altýna gider
+ve dýþýnda kalan yerleri gösterme dediðimiz için (overflow: hidden) gözükmeyecek
+
+# mouse üzerine gelme : hover
+
+# .box:hover h3 {} --> üzerine geldiðinde çalýþacak özellikleri yazarýz
+
+# .box h3 {
+	background-color: rgba(0,0,0,0.50);
+	color: #FFFFFF;
+	font-size: 14px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	position: absolute;
+	bottom: -50px;
+	margin: 0px;
+	width: 100%;
+	transition: .3s;
+}
+.box{
+	position: relative;
+	overflow: hidden;
+	display: block;
+}
+
+.box:hover h3 {
+	bottom: 0px;
+	height: 100%;  --> boyutu tam gelicek
+	background-color: rgba(247,46,50,0.50); --> renk ve þeffaflýk
+}   			--> resmin üzerine geldðimizde altta transparan kutu ierisinde yazýlý yazýyý getiren kodlar
+
+
+# transition: .3s;  --> olma süresini ayarlýyoruz: 0.3s demektir 3 salise
+
+# 
