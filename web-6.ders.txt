@@ -1,0 +1,73 @@
+
+
+
+
+
+WEB 3  ---  6.DERS
+24.10.19
+----------------------------------
+
+
+#  .fMenu{
+	border-top: solid 1px #000000;
+	border-bottom: solid 1px #000000;
+
+}  --> alta ve üste düz çizgi atar 
+
+
+
+#  .fMenu ul {
+	list-style-type: none;  --> baþlarýndaki simgeleri atar
+	margin: 0px;  --
+	padding: 0px;
+}   
+
+
+
+
+
+#  .fMenu:after --->  div kapandýktan hemen sonra 
+
+
+
+#  .fMenu:after {
+	content: "";
+	display: block;  
+	clear: both;   --> 
+}  -->
+
+
+
+# .fMenu ul {
+	list-style-type: none;
+	margin: 0px auto;   --> üst alt 0, sað sol auto
+	padding: 0px;
+	display: table;   --> table gibi olmasý için
+}
+
+
+
+
+
+
+
+# ile iþaretine bastýýktan sonra iþaret listesi geliyor
+
+
+# mt-4 mb-4  --> my direk yazýlabilir çünkü y ekseni hem yukarý hem aþaðý 
+
+
+#  ml-mr --> mx hem sað hem sol x ekseni
+
+
+
+
+# @media(max-width:576px){
+	.copyright, .sosyal {
+		text-align: center
+	}  ---> mobildeyken copyright ve sosyal classlarý da ortada durucak
+}
+
+
+
+#  <div class="modal-dialog modal-dialog-centered" role="document">  -->  prtada gelmesini saðlar modalýn
